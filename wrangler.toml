@@ -1,0 +1,10 @@
+# Cloudflare Pages configuration (frontend hosting)
+# Docs: https://developers.cloudflare.com/pages/configuration/wrangler-configuration/
+#
+# Build command and environment variables are configured in the
+# Cloudflare Pages dashboard (see README.md) — this file tells Wrangler
+# where the compiled site lives so `npx wrangler pages deploy` works.
+
+name = "akash777-portfolio"
+compatibility_date = "2026-10-06"
+pages_build_output_dir = "dist"

@@ -1,0 +1,12 @@
+/// <reference types="vite/client" />
+
+// Typed access to public environment variables (see .env.example).
+// Only VITE_* variables exist here — secrets are never exposed to the client.
+interface ImportMetaEnv {
+  readonly VITE_API_BASE_URL?: string;
+  readonly VITE_SITE_URL?: string;
+}
+
+interface ImportMeta {
+  readonly env: ImportMetaEnv;
+}
