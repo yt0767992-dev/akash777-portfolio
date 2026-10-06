@@ -10,6 +10,22 @@ It is a **fully static site** — it compiles to plain HTML/CSS/JS and runs 24/7
 
 ---
 
+## 🌐 Live deployment
+
+| | |
+|---|---|
+| **Production website** | https://akash777-portfolio.pages.dev |
+| **GitHub repository** | https://github.com/yt0767992-dev/akash777-portfolio |
+| **Backend / API URL** | *(none — static site, no backend required)* |
+| **Build command** | `npm run build` |
+| **Build output directory** | `dist` |
+| **Production branch** | `main` |
+| **Environment variables** | none required (optional: `VITE_API_BASE_URL`, `VITE_SITE_URL`) |
+
+Every push to `main` automatically builds and deploys to Cloudflare Pages — no computer needs to stay on.
+
+---
+
 ## Table of contents
 
 1. [Requirements](#requirements)
